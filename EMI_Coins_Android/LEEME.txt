@@ -1,0 +1,14 @@
+EMI COINS - Proyecto Android (WebView con el HTML y el logo EMI incluidos)
+
+OPCION A - Android Studio (la mas facil)
+ 1. Descomprime la carpeta e abrela con Android Studio (File > Open).
+ 2. Espera a que termine "Gradle Sync".
+ 3. Menu Build > Build Bundle(s) / APK(s) > Build APK(s).
+ 4. El APK queda en app/build/outputs/apk/debug/app-debug.apk
+
+OPCION B - Sin instalar nada (GitHub Actions)
+ 1. Sube esta carpeta a un repositorio nuevo de GitHub.
+ 2. Pestana "Actions" > "Compilar APK" > Run workflow.
+ 3. Al terminar, descarga el artefacto "EMI-Coins-APK".
+
+Para instalar en el celular: activa "Instalar apps desconocidas" y abre el APK.
